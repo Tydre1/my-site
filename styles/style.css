@@ -109,16 +109,6 @@ body {
     width: 50%;
 }
 
-.minha_imagem:hover {
-    padding: 2%;
-    transition: 1s;
-}
-
-.minha_imagem2:hover {
-    padding: 2%;
-    transition: 1s;
-}
-
 .rodape {
     color: var(--cor-hover);
     background-color: var(--cor-terciaria);
@@ -129,8 +119,7 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 1480px) {
     .cabecalho {
         padding: 10%;
     }
