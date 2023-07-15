@@ -132,30 +132,27 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1480px) {
+@media (max-width: 768px) {
     .cabecalho {
-        padding: 10%;
+      padding: 10% 0;
     }
-
+  
     .cabecalho__menu {
-        justify-content: center;
+      flex-direction: column;
+      gap: 20px;
     }
-
-
+  
     .apresentacao {
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        padding: 5%;
+      flex-direction: column;
+      padding: 5% 10%;
     }
-
+  
     .apresentacao__conteudo {
-        width: auto;
+      width: 100%;
     }
-
+  
     .apresentacao__imagem__curriculo {
-        width: 100%;
-        margin-top: 20px; /* Adicionar margem superior para separar a imagem do conteúdo */
+      width: 100%;
+      margin-top: 20px;
     }
-
-}
+  }  
