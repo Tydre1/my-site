@@ -113,6 +113,9 @@ body {
 
 .apresentacao__imagem {
     width: 50%;
+    position: relative; /* Mudar a posição para relativa */
+    top: 0; /* Reiniciar qualquer valor de posição anterior */
+    right: 0; /* Reiniciar qualquer valor de posição anterior */
 }
 
 .apresentacao__imagem__curriculo {
