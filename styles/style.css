@@ -46,7 +46,7 @@ body {
 .apresentacao {
     padding: 4% 15%;
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Alinhar no topo */
     justify-content: space-between;
     gap: 82px;
 }
@@ -116,6 +116,9 @@ body {
 
 .apresentacao__imagem__curriculo {
     width: 50%;
+    position: relative; /* Mudar a posição para relativa */
+    top: 0; /* Reiniciar qualquer valor de posição anterior */
+    right: 0; /* Reiniciar qualquer valor de posição anterior */
 }
 
 
@@ -140,12 +143,19 @@ body {
 
 
     .apresentacao {
-        flex-direction: column-reverse;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
         padding: 5%;
     }
 
     .apresentacao__conteudo {
-        width: auto;
+        width: 100%;
+    }
+
+    .apresentacao__imagem__curriculo {
+        width: 100%;
+        margin-top: 20px; /* Adicionar margem superior para separar a imagem do conteúdo */
     }
 
 }
