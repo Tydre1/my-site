@@ -8,8 +8,6 @@
 
 * CSS
 
-* Flex-box
-
 ## Feito por:
 
 ### André Barbosa
